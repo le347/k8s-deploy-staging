@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: 172.20.58.127:5000/library/sockshop/payment-0.6.0
+        image: 172.20.58.127:5000/library/sockshop/payment-0.5.0
         env: 
         - name: DT_TAGS
           value: "product=sockshop"
