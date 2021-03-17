@@ -44,7 +44,7 @@ pipeline {
       }
     }
     // DO NOT uncomment until 06_04 Lab
-    /*
+    // /* uncommenting this boi!!!! step 3 of https://github.com/arshadrepo/acl-docs/tree/master/workshop/06_Monitoring_as_a_Service/04_Push_Events_to_Dynatrace
     stage('DT Deploy Event') {
       steps {
         container("curl") {
@@ -61,7 +61,7 @@ pipeline {
         }
       }
     }
-    */
+    // */
     
     // DO NOT uncomment until 10_01 Lab
     /* 
